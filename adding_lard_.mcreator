@@ -116,6 +116,26 @@
           "src/main/resources/assets/adding_lard_/models/item/bronzearmor_boots.json"
         ]
       }
+    },
+    {
+      "name": "BronzeOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/addinglard/world/features/ores/BronzeOreFeature.java",
+          "src/main/resources/data/adding_lard_/worldgen/placed_feature/bronze_ore.json",
+          "src/main/java/net/mcreator/addinglard/block/BronzeOreBlock.java",
+          "src/main/resources/assets/adding_lard_/models/item/bronze_ore.json",
+          "src/main/resources/assets/adding_lard_/blockstates/bronze_ore.json",
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/bronze_ore_biome_modifier.json",
+          "src/main/resources/assets/adding_lard_/models/block/bronze_ore.json",
+          "src/main/resources/data/adding_lard_/worldgen/configured_feature/bronze_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -130,7 +150,8 @@
       "item.adding_lard_.bandit_dagger": "Bandit Dagger",
       "item.adding_lard_.bronzearmor_leggings": "Bronze Leggings",
       "item.adding_lard_.bronzearmor_boots": "Bronze Boots",
-      "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet"
+      "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet",
+      "block.adding_lard_.bronze_ore": "Bronze Ore"
     }
   },
   "foldersRoot": {

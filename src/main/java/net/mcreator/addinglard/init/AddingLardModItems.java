@@ -9,7 +9,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.addinglard.item.RawBronzeItem;
 import net.mcreator.addinglard.item.BronzeingotItem;
@@ -27,4 +29,9 @@ public class AddingLardModItems {
 	public static final RegistryObject<Item> BRONZEARMOR_CHESTPLATE = REGISTRY.register("bronzearmor_chestplate", () -> new BronzearmorItem.Chestplate());
 	public static final RegistryObject<Item> BRONZEARMOR_LEGGINGS = REGISTRY.register("bronzearmor_leggings", () -> new BronzearmorItem.Leggings());
 	public static final RegistryObject<Item> BRONZEARMOR_BOOTS = REGISTRY.register("bronzearmor_boots", () -> new BronzearmorItem.Boots());
+	public static final RegistryObject<Item> BRONZE_ORE = block(AddingLardModBlocks.BRONZE_ORE);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }
