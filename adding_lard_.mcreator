@@ -1,0 +1,63 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ganstabiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ganstabiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/adding_lard_/worldgen/biome/ganstabiome.json",
+          "src/main/resources/data/adding_lard_/worldgen/placed_feature/ganstabiome_tree.json",
+          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeTrunkDecorator.java",
+          "src/main/resources/data/adding_lard_/worldgen/configured_feature/ganstabiome_tree.json",
+          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeLeaveDecorator.java",
+          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeFruitDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "Monalisa",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monalisa",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "painting.adding_lard_.monalisa.title": "Monalisa",
+      "painting.adding_lard_.monalisa.author": "me",
+      "biome.adding_lard_.ganstabiome": "Ganstabiome"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "adding_lard_",
+    "modName": "adding lard ",
+    "version": "1.0.0",
+    "author": "colem, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.addinglard",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
