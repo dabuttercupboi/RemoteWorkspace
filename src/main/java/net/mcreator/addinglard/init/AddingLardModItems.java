@@ -12,6 +12,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.addinglard.item.RawBronzeItem;
+import net.mcreator.addinglard.item.PeeItem;
 import net.mcreator.addinglard.item.BronzeingotItem;
 import net.mcreator.addinglard.item.BronzearmorItem;
 import net.mcreator.addinglard.item.BanditDaggerItem;
@@ -27,4 +28,5 @@ public class AddingLardModItems {
 	public static final RegistryObject<Item> BRONZEARMOR_CHESTPLATE = REGISTRY.register("bronzearmor_chestplate", () -> new BronzearmorItem.Chestplate());
 	public static final RegistryObject<Item> BRONZEARMOR_LEGGINGS = REGISTRY.register("bronzearmor_leggings", () -> new BronzearmorItem.Leggings());
 	public static final RegistryObject<Item> BRONZEARMOR_BOOTS = REGISTRY.register("bronzearmor_boots", () -> new BronzearmorItem.Boots());
+	public static final RegistryObject<Item> PEE_BUCKET = REGISTRY.register("pee_bucket", () -> new PeeItem());
 }

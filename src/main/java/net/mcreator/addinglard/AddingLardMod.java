@@ -30,8 +30,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.addinglard.init.AddingLardModItems;
+import net.mcreator.addinglard.init.AddingLardModFluids;
+import net.mcreator.addinglard.init.AddingLardModFluidTypes;
 import net.mcreator.addinglard.init.AddingLardModFeatures;
 import net.mcreator.addinglard.init.AddingLardModEntities;
+import net.mcreator.addinglard.init.AddingLardModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,11 +54,14 @@ public class AddingLardMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		AddingLardModBlocks.REGISTRY.register(bus);
 		AddingLardModItems.REGISTRY.register(bus);
 		AddingLardModEntities.REGISTRY.register(bus);
 
 		AddingLardModFeatures.REGISTRY.register(bus);
 
+		AddingLardModFluids.REGISTRY.register(bus);
+		AddingLardModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

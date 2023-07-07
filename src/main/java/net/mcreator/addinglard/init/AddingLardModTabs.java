@@ -26,5 +26,9 @@ public class AddingLardModTabs {
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(AddingLardModItems.BANDIT_SPAWN_EGG.get());
 		}
+
+		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(AddingLardModItems.PEE_BUCKET.get());
+		}
 	}
 }
