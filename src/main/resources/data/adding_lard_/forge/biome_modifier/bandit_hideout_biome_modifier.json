@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "adding_lard_:bandit_hideout",
+  "step": "surface_structures"
+}

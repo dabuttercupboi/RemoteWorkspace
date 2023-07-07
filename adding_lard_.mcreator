@@ -1,5 +1,79 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BanditHideoutLootTable",
+      "type": "loottable",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandit_hideout_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/adding_lard_/loot_tables/chests/bandit_hideout_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "BanditDagger",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandit_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/adding_lard_/models/item/bandit_dagger.json",
+          "src/main/java/net/mcreator/addinglard/item/BanditDaggerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BanditHideout",
+      "type": "structure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandit_hideout",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/bandit_hideout_biome_modifier.json",
+          "src/main/resources/data/adding_lard_/worldgen/placed_feature/bandit_hideout.json",
+          "src/main/java/net/mcreator/addinglard/world/features/BanditHideoutFeature.java",
+          "src/main/resources/data/adding_lard_/worldgen/configured_feature/bandit_hideout.json"
+        ]
+      }
+    },
+    {
+      "name": "Bandit",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/adding_lard_/models/item/bandit_spawn_egg.json",
+          "src/main/java/net/mcreator/addinglard/client/renderer/BanditRenderer.java",
+          "src/main/java/net/mcreator/addinglard/entity/BanditEntity.java",
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/bandit_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "RawBronze",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bronze",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/addinglard/item/RawBronzeItem.java",
+          "src/main/resources/assets/adding_lard_/models/item/raw_bronze.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
@@ -11,7 +85,7 @@
   },
   "workspaceSettings": {
     "modid": "adding_lard_",
-    "modName": "the best mod ever",
+    "modName": "adding lard ",
     "version": "1.0.0",
     "author": "colem, MCreator",
     "websiteURL": "https://mcreator.net",

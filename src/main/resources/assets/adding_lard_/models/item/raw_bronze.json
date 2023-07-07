@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "adding_lard_:item/download_4"
+  }
+}
