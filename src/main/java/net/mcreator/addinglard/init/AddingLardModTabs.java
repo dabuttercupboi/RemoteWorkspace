@@ -17,6 +17,10 @@ public class AddingLardModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
 			tabData.accept(AddingLardModItems.BANDIT_DAGGER.get());
+			tabData.accept(AddingLardModItems.BRONZEARMOR_HELMET.get());
+			tabData.accept(AddingLardModItems.BRONZEARMOR_CHESTPLATE.get());
+			tabData.accept(AddingLardModItems.BRONZEARMOR_LEGGINGS.get());
+			tabData.accept(AddingLardModItems.BRONZEARMOR_BOOTS.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
