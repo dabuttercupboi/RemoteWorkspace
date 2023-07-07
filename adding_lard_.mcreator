@@ -116,41 +116,6 @@
           "src/main/resources/assets/adding_lard_/models/item/bronzearmor_boots.json"
         ]
       }
-    },
-    {
-      "name": "Pee",
-      "type": "fluid",
-      "sortid": 9,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "pee",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/adding_lard_/models/block/pee.json",
-          "src/main/java/net/mcreator/addinglard/item/PeeItem.java",
-          "src/main/resources/assets/adding_lard_/models/item/pee_bucket.json",
-          "src/main/resources/assets/adding_lard_/blockstates/pee.json",
-          "src/main/java/net/mcreator/addinglard/fluid/types/PeeFluidType.java",
-          "src/main/java/net/mcreator/addinglard/fluid/PeeFluid.java",
-          "src/main/java/net/mcreator/addinglard/block/PeeBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "SkeletonKnight",
-      "type": "livingentity",
-      "sortid": 9,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "skeleton_knight",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/adding_lard_/models/item/skeleton_knight_spawn_egg.json",
-          "src/main/resources/data/adding_lard_/forge/biome_modifier/skeleton_knight_biome_modifier.json",
-          "src/main/java/net/mcreator/addinglard/entity/SkeletonKnightEntity.java",
-          "src/main/java/net/mcreator/addinglard/client/renderer/SkeletonKnightRenderer.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
