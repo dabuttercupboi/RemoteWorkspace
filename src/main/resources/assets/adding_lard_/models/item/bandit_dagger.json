@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "adding_lard_:item/unnamed_2"
+  }
+}

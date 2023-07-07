@@ -1,5 +1,6 @@
 {
-  "painting.adding_lard_.monalisa.title": "Monalisa",
-  "painting.adding_lard_.monalisa.author": "me",
-  "biome.adding_lard_.ganstabiome": "Ganstabiome"
+  "item.adding_lard_.bandit_spawn_egg": "Bandit Spawn Egg",
+  "item.adding_lard_.raw_bronze": "Raw Bronze",
+  "entity.adding_lard_.bandit": "Bandit",
+  "item.adding_lard_.bandit_dagger": "Bandit Dagger"
 }

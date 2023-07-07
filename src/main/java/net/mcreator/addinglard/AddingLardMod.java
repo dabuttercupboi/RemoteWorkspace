@@ -29,7 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.addinglard.init.AddingLardModPaintings;
+import net.mcreator.addinglard.init.AddingLardModItems;
+import net.mcreator.addinglard.init.AddingLardModFeatures;
+import net.mcreator.addinglard.init.AddingLardModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,7 +51,10 @@ public class AddingLardMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		AddingLardModPaintings.REGISTRY.register(bus);
+		AddingLardModItems.REGISTRY.register(bus);
+		AddingLardModEntities.REGISTRY.register(bus);
+
+		AddingLardModFeatures.REGISTRY.register(bus);
 
 	}
 

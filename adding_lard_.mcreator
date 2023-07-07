@@ -1,30 +1,76 @@
 {
   "mod_elements": [
     {
-      "name": "Ganstabiome",
-      "type": "biome",
+      "name": "RawBronze",
+      "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ganstabiome",
+      "registry_name": "raw_bronze",
       "metadata": {
         "files": [
-          "src/main/resources/data/adding_lard_/worldgen/biome/ganstabiome.json",
-          "src/main/resources/data/adding_lard_/worldgen/placed_feature/ganstabiome_tree.json",
-          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeTrunkDecorator.java",
-          "src/main/resources/data/adding_lard_/worldgen/configured_feature/ganstabiome_tree.json",
-          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeLeaveDecorator.java",
-          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeFruitDecorator.java"
+          "src/main/java/net/mcreator/addinglard/item/RawBronzeItem.java",
+          "src/main/resources/assets/adding_lard_/models/item/raw_bronze.json"
         ]
       }
     },
     {
-      "name": "Monalisa",
-      "type": "painting",
+      "name": "BanditDagger",
+      "type": "tool",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "monalisa",
+      "registry_name": "bandit_dagger",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/assets/adding_lard_/models/item/bandit_dagger.json",
+          "src/main/java/net/mcreator/addinglard/item/BanditDaggerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BanditHideoutLootTable",
+      "type": "loottable",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandit_hideout_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/adding_lard_/loot_tables/chests/bandit_hideout_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "BanditHideout",
+      "type": "structure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandit_hideout",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/adding_lard_/worldgen/configured_feature/bandit_hideout.json",
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/bandit_hideout_biome_modifier.json",
+          "src/main/resources/data/adding_lard_/worldgen/placed_feature/bandit_hideout.json",
+          "src/main/java/net/mcreator/addinglard/world/features/BanditHideoutFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Bandit",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/adding_lard_/models/item/bandit_spawn_egg.json",
+          "src/main/java/net/mcreator/addinglard/client/renderer/BanditRenderer.java",
+          "src/main/java/net/mcreator/addinglard/entity/BanditEntity.java",
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/bandit_biome_modifier.json"
+        ]
       }
     }
   ],
@@ -32,9 +78,10 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "painting.adding_lard_.monalisa.title": "Monalisa",
-      "painting.adding_lard_.monalisa.author": "me",
-      "biome.adding_lard_.ganstabiome": "Ganstabiome"
+      "item.adding_lard_.bandit_spawn_egg": "Bandit Spawn Egg",
+      "item.adding_lard_.raw_bronze": "Raw Bronze",
+      "entity.adding_lard_.bandit": "Bandit",
+      "item.adding_lard_.bandit_dagger": "Bandit Dagger"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "adding_lard_:bandit",
+    "weight": 75,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}
