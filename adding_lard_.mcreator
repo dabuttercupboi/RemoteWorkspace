@@ -136,22 +136,50 @@
           "src/main/resources/data/adding_lard_/worldgen/configured_feature/bronze_ore.json"
         ]
       }
+    },
+    {
+      "name": "Skeletonknight",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeletonknight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/adding_lard_/models/item/skeletonknight_spawn_egg.json",
+          "src/main/java/net/mcreator/addinglard/entity/SkeletonknightEntity.java",
+          "src/main/java/net/mcreator/addinglard/client/renderer/SkeletonknightRenderer.java",
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/skeletonknight_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Skeletonbiome",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeletonbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/adding_lard_/worldgen/biome/skeletonbiome.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.adding_lard_.bandit_spawn_egg": "Bandit Spawn Egg",
+      "item.adding_lard_.bandit_dagger": "Bandit Dagger",
+      "item.adding_lard_.bronzearmor_boots": "Bronze Boots",
       "item.adding_lard_.bronzeingot": "Bronzeingot",
       "item.adding_lard_.bronzearmor_chestplate": "Bronze Chestplate",
-      "item.adding_lard_.bandit_spawn_egg": "Bandit Spawn Egg",
       "item.adding_lard_.raw_bronze": "Raw Bronze",
       "entity.adding_lard_.bandit": "Bandit",
-      "item.adding_lard_.bandit_dagger": "Bandit Dagger",
       "item.adding_lard_.bronzearmor_leggings": "Bronze Leggings",
-      "item.adding_lard_.bronzearmor_boots": "Bronze Boots",
-      "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet",
-      "block.adding_lard_.bronze_ore": "Bronze Ore"
+      "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet"
     }
   },
   "foldersRoot": {

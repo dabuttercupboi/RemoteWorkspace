@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.addinglard.entity.SkeletonknightEntity;
 import net.mcreator.addinglard.entity.BanditEntity;
 import net.mcreator.addinglard.AddingLardMod;
 
@@ -24,6 +25,10 @@ public class AddingLardModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, AddingLardMod.MODID);
 	public static final RegistryObject<EntityType<BanditEntity>> BANDIT = register("bandit",
 			EntityType.Builder.<BanditEntity>of(BanditEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BanditEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SkeletonknightEntity>> SKELETONKNIGHT = register("skeletonknight",
+			EntityType.Builder.<SkeletonknightEntity>of(SkeletonknightEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SkeletonknightEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -35,11 +40,13 @@ public class AddingLardModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			BanditEntity.init();
+			SkeletonknightEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(BANDIT.get(), BanditEntity.createAttributes().build());
+		event.put(SKELETONKNIGHT.get(), SkeletonknightEntity.createAttributes().build());
 	}
 }

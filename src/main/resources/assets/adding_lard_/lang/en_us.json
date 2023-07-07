@@ -5,8 +5,7 @@
   "item.adding_lard_.raw_bronze": "Raw Bronze",
   "entity.adding_lard_.bandit": "Bandit",
   "item.adding_lard_.bandit_dagger": "Bandit Dagger",
-  "item.adding_lard_.bronzearmor_leggings": "Bronze Leggings",
   "item.adding_lard_.bronzearmor_boots": "Bronze Boots",
-  "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet",
-  "block.adding_lard_.bronze_ore": "Bronze Ore"
+  "item.adding_lard_.bronzearmor_leggings": "Bronze Leggings",
+  "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet"
 }
