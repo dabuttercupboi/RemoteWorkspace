@@ -116,22 +116,6 @@
           "src/main/resources/assets/adding_lard_/models/item/bronzearmor_boots.json"
         ]
       }
-    },
-    {
-      "name": "SkeletonKnight",
-      "type": "livingentity",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skeleton_knight",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/adding_lard_/models/item/skeleton_knight_spawn_egg.json",
-          "src/main/resources/data/adding_lard_/forge/biome_modifier/skeleton_knight_biome_modifier.json",
-          "src/main/java/net/mcreator/addinglard/entity/SkeletonKnightEntity.java",
-          "src/main/java/net/mcreator/addinglard/client/renderer/SkeletonKnightRenderer.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -142,12 +126,10 @@
       "item.adding_lard_.bronzearmor_chestplate": "Bronze Chestplate",
       "item.adding_lard_.bandit_spawn_egg": "Bandit Spawn Egg",
       "item.adding_lard_.raw_bronze": "Raw Bronze",
-      "item.adding_lard_.skeleton_knight_spawn_egg": "Skeleton Knight Spawn Egg",
       "entity.adding_lard_.bandit": "Bandit",
       "item.adding_lard_.bandit_dagger": "Bandit Dagger",
       "item.adding_lard_.bronzearmor_leggings": "Bronze Leggings",
       "item.adding_lard_.bronzearmor_boots": "Bronze Boots",
-      "entity.adding_lard_.skeleton_knight": "Skeleton Knight",
       "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet"
     }
   },

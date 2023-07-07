@@ -27,5 +27,4 @@ public class AddingLardModItems {
 	public static final RegistryObject<Item> BRONZEARMOR_CHESTPLATE = REGISTRY.register("bronzearmor_chestplate", () -> new BronzearmorItem.Chestplate());
 	public static final RegistryObject<Item> BRONZEARMOR_LEGGINGS = REGISTRY.register("bronzearmor_leggings", () -> new BronzearmorItem.Leggings());
 	public static final RegistryObject<Item> BRONZEARMOR_BOOTS = REGISTRY.register("bronzearmor_boots", () -> new BronzearmorItem.Boots());
-	public static final RegistryObject<Item> SKELETON_KNIGHT_SPAWN_EGG = REGISTRY.register("skeleton_knight_spawn_egg", () -> new ForgeSpawnEggItem(AddingLardModEntities.SKELETON_KNIGHT, -1, -1, new Item.Properties()));
 }
