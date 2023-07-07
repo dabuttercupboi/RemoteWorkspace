@@ -121,7 +121,7 @@
       "name": "Pee",
       "type": "fluid",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pee",
       "metadata": {
@@ -140,7 +140,7 @@
       "name": "SkeletonKnight",
       "type": "livingentity",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "skeleton_knight",
       "metadata": {
@@ -157,13 +157,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.adding_lard_.bandit_spawn_egg": "Bandit Spawn Egg",
-      "item.adding_lard_.bandit_dagger": "Bandit Dagger",
-      "item.adding_lard_.bronzearmor_boots": "Bronze Boots",
       "item.adding_lard_.bronzeingot": "Bronzeingot",
       "item.adding_lard_.bronzearmor_chestplate": "Bronze Chestplate",
+      "item.adding_lard_.bandit_spawn_egg": "Bandit Spawn Egg",
       "item.adding_lard_.raw_bronze": "Raw Bronze",
       "entity.adding_lard_.bandit": "Bandit",
+      "item.adding_lard_.bandit_dagger": "Bandit Dagger",
+      "item.adding_lard_.bronzearmor_boots": "Bronze Boots",
       "item.adding_lard_.bronzearmor_leggings": "Bronze Leggings",
       "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet"
     }
