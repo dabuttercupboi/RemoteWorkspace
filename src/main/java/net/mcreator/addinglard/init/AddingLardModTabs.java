@@ -25,6 +25,7 @@ public class AddingLardModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(AddingLardModItems.BANDIT_SPAWN_EGG.get());
+			tabData.accept(AddingLardModItems.SKELETON_KNIGHT_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
