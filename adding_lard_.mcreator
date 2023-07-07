@@ -118,19 +118,6 @@
       }
     },
     {
-      "name": "Skeletonbiome",
-      "type": "biome",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skeletonbiome",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/adding_lard_/worldgen/biome/skeletonbiome.json"
-        ]
-      }
-    },
-    {
       "name": "Skeletonknight",
       "type": "livingentity",
       "sortid": 10,
@@ -143,6 +130,19 @@
           "src/main/resources/data/adding_lard_/forge/biome_modifier/skeletonknight_biome_modifier.json",
           "src/main/java/net/mcreator/addinglard/entity/SkeletonknightEntity.java",
           "src/main/java/net/mcreator/addinglard/client/renderer/SkeletonknightRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Skeletonbiome",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeletonbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/adding_lard_/worldgen/biome/skeletonbiome.json"
         ]
       }
     }
