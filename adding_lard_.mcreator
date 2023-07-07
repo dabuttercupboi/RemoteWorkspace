@@ -165,6 +165,20 @@
           "src/main/resources/data/adding_lard_/worldgen/biome/skeletonbiome.json"
         ]
       }
+    },
+    {
+      "name": "Bronzesword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronzesword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/adding_lard_/models/item/bronzesword.json",
+          "src/main/java/net/mcreator/addinglard/item/BronzeswordItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -183,7 +197,8 @@
       "item.adding_lard_.raw_bronze": "Raw Bronze",
       "entity.adding_lard_.bandit": "Bandit",
       "item.adding_lard_.bronzearmor_leggings": "Bronze Leggings",
-      "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet"
+      "item.adding_lard_.bronzearmor_helmet": "Bronze Helmet",
+      "item.adding_lard_.bronzesword": "Bronzesword"
     }
   },
   "foldersRoot": {

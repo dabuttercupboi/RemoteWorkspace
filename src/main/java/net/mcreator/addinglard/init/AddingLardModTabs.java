@@ -21,6 +21,7 @@ public class AddingLardModTabs {
 			tabData.accept(AddingLardModItems.BRONZEARMOR_CHESTPLATE.get());
 			tabData.accept(AddingLardModItems.BRONZEARMOR_LEGGINGS.get());
 			tabData.accept(AddingLardModItems.BRONZEARMOR_BOOTS.get());
+			tabData.accept(AddingLardModItems.BRONZESWORD.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
