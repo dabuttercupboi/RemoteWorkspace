@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "adding_lard_:block/unnamed_1",
+    "up": "adding_lard_:block/unnamed_1",
+    "north": "adding_lard_:block/unnamed_1",
+    "east": "adding_lard_:block/unnamed_1",
+    "south": "adding_lard_:block/unnamed_1",
+    "west": "adding_lard_:block/unnamed_1",
+    "particle": "adding_lard_:block/unnamed_1"
+  },
+  "render_type": "solid"
+}

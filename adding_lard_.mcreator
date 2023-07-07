@@ -36,10 +36,10 @@
       "registry_name": "bandit_hideout",
       "metadata": {
         "files": [
-          "src/main/resources/data/adding_lard_/forge/biome_modifier/bandit_hideout_biome_modifier.json",
-          "src/main/resources/data/adding_lard_/worldgen/placed_feature/bandit_hideout.json",
           "src/main/java/net/mcreator/addinglard/world/features/BanditHideoutFeature.java",
-          "src/main/resources/data/adding_lard_/worldgen/configured_feature/bandit_hideout.json"
+          "src/main/resources/data/adding_lard_/worldgen/configured_feature/bandit_hideout.json",
+          "src/main/resources/data/adding_lard_/worldgen/placed_feature/bandit_hideout.json",
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/bandit_hideout_biome_modifier.json"
         ]
       }
     },
@@ -118,6 +118,26 @@
       }
     },
     {
+      "name": "BronzeOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/addinglard/world/features/ores/BronzeOreFeature.java",
+          "src/main/resources/data/adding_lard_/worldgen/placed_feature/bronze_ore.json",
+          "src/main/java/net/mcreator/addinglard/block/BronzeOreBlock.java",
+          "src/main/resources/assets/adding_lard_/models/item/bronze_ore.json",
+          "src/main/resources/assets/adding_lard_/blockstates/bronze_ore.json",
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/bronze_ore_biome_modifier.json",
+          "src/main/resources/assets/adding_lard_/models/block/bronze_ore.json",
+          "src/main/resources/data/adding_lard_/worldgen/configured_feature/bronze_ore.json"
+        ]
+      }
+    },
+    {
       "name": "Skeletonknight",
       "type": "livingentity",
       "sortid": 10,
@@ -127,9 +147,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/adding_lard_/models/item/skeletonknight_spawn_egg.json",
-          "src/main/resources/data/adding_lard_/forge/biome_modifier/skeletonknight_biome_modifier.json",
           "src/main/java/net/mcreator/addinglard/entity/SkeletonknightEntity.java",
-          "src/main/java/net/mcreator/addinglard/client/renderer/SkeletonknightRenderer.java"
+          "src/main/java/net/mcreator/addinglard/client/renderer/SkeletonknightRenderer.java",
+          "src/main/resources/data/adding_lard_/forge/biome_modifier/skeletonknight_biome_modifier.json"
         ]
       }
     },
@@ -153,11 +173,8 @@
     "en_us": {
       "item.adding_lard_.bandit_spawn_egg": "Bandit Spawn Egg",
       "item.adding_lard_.bandit_dagger": "Bandit Dagger",
-      "item.adding_lard_.skeletonknight_spawn_egg": "Skeletonknight Spawn Egg",
       "item.adding_lard_.bronzearmor_boots": "Bronze Boots",
-      "entity.adding_lard_.skeletonknight": "Skeletonknight",
       "item.adding_lard_.bronzeingot": "Bronzeingot",
-      "biome.adding_lard_.skeletonbiome": "Skeletonbiome",
       "item.adding_lard_.bronzearmor_chestplate": "Bronze Chestplate",
       "item.adding_lard_.raw_bronze": "Raw Bronze",
       "entity.adding_lard_.bandit": "Bandit",
