@@ -1,41 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Ganstabiome",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ganstabiome",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/adding_lard_/worldgen/biome/ganstabiome.json",
-          "src/main/resources/data/adding_lard_/worldgen/placed_feature/ganstabiome_tree.json",
-          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeTrunkDecorator.java",
-          "src/main/resources/data/adding_lard_/worldgen/configured_feature/ganstabiome_tree.json",
-          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeLeaveDecorator.java",
-          "src/main/java/net/mcreator/addinglard/world/features/treedecorators/GanstabiomeFruitDecorator.java"
-        ]
-      }
-    },
-    {
-      "name": "Monalisa",
-      "type": "painting",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "monalisa",
-      "metadata": {
-        "files": []
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "painting.adding_lard_.monalisa.title": "Monalisa",
-      "painting.adding_lard_.monalisa.author": "me",
-      "biome.adding_lard_.ganstabiome": "Ganstabiome"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
@@ -43,7 +11,7 @@
   },
   "workspaceSettings": {
     "modid": "adding_lard_",
-    "modName": "adding lard ",
+    "modName": "the best mod ever",
     "version": "1.0.0",
     "author": "colem, MCreator",
     "websiteURL": "https://mcreator.net",
