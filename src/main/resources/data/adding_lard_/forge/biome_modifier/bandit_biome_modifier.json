@@ -5,7 +5,7 @@
   },
   "spawners": {
     "type": "adding_lard_:bandit",
-    "weight": 75,
+    "weight": 25,
     "minCount": 4,
     "maxCount": 4
   }

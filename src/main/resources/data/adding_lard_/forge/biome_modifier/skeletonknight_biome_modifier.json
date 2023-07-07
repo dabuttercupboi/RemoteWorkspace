@@ -1,11 +1,9 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "adding_lard_:skeletonbiome",
   "spawners": {
     "type": "adding_lard_:skeletonknight",
-    "weight": 20,
+    "weight": 40,
     "minCount": 4,
     "maxCount": 4
   }
